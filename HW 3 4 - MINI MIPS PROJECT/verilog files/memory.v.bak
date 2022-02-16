@@ -1,0 +1,11 @@
+module memory (MemRead, MemWrite, Address, WriteData, ReadData);
+
+	input MemRead;
+	input MemWrite;
+	input [31:0] Address;
+	input [31:0] WriteData;
+	output reg ReadData;
+	
+	
+
+endmodule

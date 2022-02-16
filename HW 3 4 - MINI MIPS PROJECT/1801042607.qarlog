@@ -1,0 +1,64 @@
+Quartus II Archive log --	C:/altera/13.1/workspace/hw4/1801042607.qarlog
+
+Archive:	C:/altera/13.1/workspace/hw4/1801042607.qar
+Date:		Sat Jan 08 17:21:11 2022
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/altera/13.1/workspace/hw3/_32baddertb.v
+C:/altera/13.1/workspace/hw3/_32bitadder.v
+C:/altera/13.1/workspace/hw3/_4baddertb.v
+C:/altera/13.1/workspace/hw3/_4bit_adder.v
+C:/altera/13.1/workspace/hw3/alu.v
+C:/altera/13.1/workspace/hw3/alutb.v
+C:/altera/13.1/workspace/hw3/and_tb.v
+C:/altera/13.1/workspace/hw3/andgate.v
+C:/altera/13.1/workspace/hw3/full_adder.v
+C:/altera/13.1/workspace/hw3/full_adder_testbench.v
+C:/altera/13.1/workspace/hw3/half_adder.v
+C:/altera/13.1/workspace/hw3/half_adder_testbench.v
+C:/altera/13.1/workspace/hw3/mux8x1.v
+C:/altera/13.1/workspace/hw3/nor_tb.v
+C:/altera/13.1/workspace/hw3/norgate.v
+C:/altera/13.1/workspace/hw3/not_tb.v
+C:/altera/13.1/workspace/hw3/notgate.v
+C:/altera/13.1/workspace/hw3/or_tb.v
+C:/altera/13.1/workspace/hw3/orgate.v
+C:/altera/13.1/workspace/hw3/slt.v
+C:/altera/13.1/workspace/hw3/slt_tb.v
+C:/altera/13.1/workspace/hw3/sub32tb.v
+C:/altera/13.1/workspace/hw3/subtractor32b.v
+C:/altera/13.1/workspace/hw3/xor_tb.v
+C:/altera/13.1/workspace/hw3/xorgate.v
+C:/altera/13.1/workspace/hw4/ALUControl.v
+C:/altera/13.1/workspace/hw4/ALUControl_testbench.v
+C:/altera/13.1/workspace/hw4/ALUSrcMux.v
+C:/altera/13.1/workspace/hw4/RegisterMux.v
+C:/altera/13.1/workspace/hw4/Registers.v
+C:/altera/13.1/workspace/hw4/Registers_testbench.v
+C:/altera/13.1/workspace/hw4/WriteToRegMux.v
+C:/altera/13.1/workspace/hw4/controlunit.v
+C:/altera/13.1/workspace/hw4/controlunit_testbench.v
+C:/altera/13.1/workspace/hw4/db/processor.db_info
+C:/altera/13.1/workspace/hw4/incremental_db/compiled_partitions/processor.db_info
+C:/altera/13.1/workspace/hw4/instruction_list.txt
+C:/altera/13.1/workspace/hw4/instructions.v
+C:/altera/13.1/workspace/hw4/instructions_tb.v
+C:/altera/13.1/workspace/hw4/mem_inside.txt
+C:/altera/13.1/workspace/hw4/memory.v
+C:/altera/13.1/workspace/hw4/memory_testbench.v
+C:/altera/13.1/workspace/hw4/miniMips.v
+C:/altera/13.1/workspace/hw4/mipstb.v
+C:/altera/13.1/workspace/hw4/mux2x1.v
+C:/altera/13.1/workspace/hw4/mux8to1.v
+C:/altera/13.1/workspace/hw4/processor.qpf
+C:/altera/13.1/workspace/hw4/processor.qsf
+C:/altera/13.1/workspace/hw4/programCounter.v
+C:/altera/13.1/workspace/hw4/reg_inside.txt
+C:/altera/13.1/workspace/hw4/signExtender.v
+C:/altera/13.1/workspace/hw4/signExtender_testbench.v
+c:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 53 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

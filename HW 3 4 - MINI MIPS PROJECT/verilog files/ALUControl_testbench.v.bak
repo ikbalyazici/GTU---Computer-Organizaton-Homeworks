@@ -1,0 +1,36 @@
+`timescale 1 ps / 1 ps
+
+module ALUControl_testbench();
+
+	reg [2:0] Funct;
+	reg [2:0] ALUOp;
+	wire ALUCtr;
+	
+	
+	ALUControl ALUCtrlinst (.ALUOp(ALUOp), .Funct(Funct), .ALUCtr(ALUCtr));
+	
+	initial
+		begin
+			opcode = 4'b0000;
+			
+			#5 opcode = 4'b0001;
+			
+			#5 opcode = 4'b0010;
+			
+			#5 opcode = 4'b0011;
+			
+			#5 opcode = 4'b0100;
+			
+			#5 opcode = 4'b0101;
+			
+			#5 opcode = 4'b0110;
+			
+			#5 opcode = 4'b0111;
+			
+			#5 opcode = 4'b1000;
+			
+			#5 opcode = 4'b1001;
+			
+		end
+		
+endmodule

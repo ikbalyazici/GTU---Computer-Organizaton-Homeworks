@@ -1,0 +1,9 @@
+module miniMips (result);
+	
+	output [31:0] result;
+	
+	reg [31:0] prepc;
+	
+	initial begin prepc = 32'b00000000000000000000000000000000; end
+
+endmodule

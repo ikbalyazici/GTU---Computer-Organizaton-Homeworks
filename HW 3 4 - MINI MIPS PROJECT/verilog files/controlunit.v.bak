@@ -1,0 +1,10 @@
+module controlunit(opcode);
+
+	input [3:0] opcode;
+	output [2:0] ALUOp;
+	output RegDst;
+	output MemRead;
+	output MemToReg;
+	output ALUSrc;
+
+endmodule

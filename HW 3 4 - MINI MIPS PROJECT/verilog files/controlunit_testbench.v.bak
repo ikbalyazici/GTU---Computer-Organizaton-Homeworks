@@ -1,0 +1,34 @@
+`timescale 1 ps / 1 ps
+
+module controlunit_testbench();
+
+	reg [3:0] opcode;
+	wire [2:0] ALUOp;
+	
+	controlunit controlinst (.opcode(opcode), .ALUOp(ALUOp));
+	
+	initial
+		begin
+			opcode = 4'0000;
+			
+			#5 opcode = 4'0001;
+			
+			#5 opcode = 4'0010;
+			
+			#5 opcode = 4'0011;
+			
+			#5 opcode = 4'0100;
+			
+			#5 opcode = 4'0101;
+			
+			#5 opcode = 4'0110;
+			
+			#5 opcode = 4'0111;
+			
+			#5 opcode = 4'1000;
+			
+			#5 opcode = 4'1001;
+			
+		end
+		
+endmodule

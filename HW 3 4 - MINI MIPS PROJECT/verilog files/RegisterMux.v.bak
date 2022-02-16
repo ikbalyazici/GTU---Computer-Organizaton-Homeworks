@@ -1,0 +1,10 @@
+module RegisterMux (rt, rd, RegDst, RW);
+
+	input [2:0] rt;
+	input [2:0] rd;
+	input RegDst;
+	output RW;
+	
+	
+
+endmodule

@@ -1,0 +1,8 @@
+module programCounter (pc);
+	
+	reg C;
+	reg [31:0] prepc;
+	output reg pc;
+	
+	
+	_32bitadder adder (pc[31:0], C, prepc[31:0], 32'b00000000000000000000000000000001, 1'b0);

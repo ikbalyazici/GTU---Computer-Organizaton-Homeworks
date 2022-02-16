@@ -1,0 +1,10 @@
+module ALUControl(ALUOp, Funct, ALUCtr);
+	
+	input [2:0] ALUOp;
+	input [2:0] Funct;
+	output [2:0] ALUCtr;
+	
+	
+
+
+endmodule

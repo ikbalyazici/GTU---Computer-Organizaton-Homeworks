@@ -1,0 +1,19 @@
+`timescale 1 ps / 1 ps
+
+module instruction_tb ();
+
+	reg [31:0] pc;
+	wire [15:0] instruction;
+	
+	instructions instinst (.pc(pc), .instruction(instruction));
+	
+	initial	
+		begin
+		
+			prepc = 32'b00000000000000000000000000000000;
+			$readmemb ("C:/altera/13.1/workspace/hw4/instruction_list.txt",miniMips.instmod.instruction_set);
+			$readmemb("C:/altera/13.1/workspace/hw4/reg_inside.txt",miniMips.regiss.storage);
+			$readmemb("C:/altera/13.1/workspace/hw4/mem_inside.txt",miniMips.memo.storage);
+		
+		end
+endmodule

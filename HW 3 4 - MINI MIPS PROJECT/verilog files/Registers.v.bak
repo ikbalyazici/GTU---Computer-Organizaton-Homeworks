@@ -1,0 +1,13 @@
+module Registers (RegWrite, RegReadA, RegReadB, WriteRegister, WriteData, ReadDataA, ReadDataB);
+
+	input RegWrite;
+	input [2:0] RegReadA;
+	input [2:0] RegReadB;
+	input [2:0] WriteRegister;
+	input [31:0] WriteData;
+	output [31:0] ReadDataA;
+	output [31:0] ReadDataB;
+	
+	
+
+endmodule
